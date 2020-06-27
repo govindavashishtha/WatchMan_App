@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "38698705937",
+    "firebase_url": "https://watchmanapp-703ea.firebaseio.com",
+    "project_id": "watchmanapp-703ea",
+    "storage_bucket": "watchmanapp-703ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38698705937:android:36ebcc8da97a2f1355fdb0",
+        "android_client_info": {
+          "package_name": "com.example.watchman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38698705937-ndfei0o26pqksiu9uppfu5ask8qgt6du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQM-QdEN2n1rRP_AvhW_tVT0gDsdgtj2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38698705937-ndfei0o26pqksiu9uppfu5ask8qgt6du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
