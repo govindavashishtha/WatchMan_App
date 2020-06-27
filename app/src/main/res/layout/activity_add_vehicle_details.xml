@@ -7,8 +7,9 @@
     tools:context=".AddVehicleDetails">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding = "10dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="1dp"
         android:orientation="vertical"
@@ -17,17 +18,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Space
+        <ImageView
+            android:id="@+id/car_plate_photo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            />
+            android:layout_height="165dp"
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Vehicle's Plate Number" />
+            android:text="@string/vehicle_plate" />
 
         <EditText
             android:id="@+id/vehicle_number"
@@ -46,7 +48,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Name" />
+            android:text="@string/guest_name" />
 
         <EditText
             android:id="@+id/name"
@@ -65,7 +67,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Appartment Details" />
+            android:text="@string/apartment_details" />
 
         <EditText
             android:id="@+id/appartment_details"
@@ -84,7 +86,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CheckIn Time" />
+            android:text="@string/checkin" />
 
         <EditText
             android:id="@+id/check_in_details"

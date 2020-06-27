@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">WatchMan</string>
+    <string name="in_btn">IN</string>
+    <string name="out_btn">OUT</string>
+    <string name="vehicle_plate">Vehicle\'s Plate Number</string>
+    <string name="guest_name">Name of the Guest</string>
+    <string name="apartment_details">Apartment Details</string>
+    <string name="checkin">CheckIn Time</string>
+
 </resources>
